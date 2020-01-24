@@ -1,0 +1,35 @@
+html,body {
+	margin:0;
+	padding:0; 
+}
+
+
+.main-header {
+	background-color: #ccc;
+	margin:0;
+	padding: 0;
+	& a {
+		display: inline-block;
+		padding:8px;
+		text-decoration: none;
+		color:blue;
+		
+		font-size: 20px;
+	}
+}
+
+.main-footer {
+	background-color: olive;
+	p {
+		text-transform: uppercase;
+		line-height: 1;
+		font-weight: 700;
+		margin:0;
+		text-align: center;
+		padding: 19px; 
+	}
+
+}
+
+
+
