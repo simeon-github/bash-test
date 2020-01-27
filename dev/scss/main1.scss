@@ -5,7 +5,7 @@ html,body {
 
 
 .main-header {
-	background-color: #ccc;
+	background-color: green;
 	margin:0;
 	padding: 0;
 	& a {
@@ -19,14 +19,15 @@ html,body {
 }
 
 .main-footer {
-	background-color: olive;
+	background-color: blue;
 	p {
 		text-transform: uppercase;
 		line-height: 1;
 		font-weight: 700;
 		margin:0;
 		text-align: center;
-		padding: 19px; 
+		padding: 12px; 
+		font-size: 20px;
 	}
 
 }
