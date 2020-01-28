@@ -3,14 +3,13 @@ html,body {
 	padding:0; 
 }
 
-
 .main-header {
 	background-color: green;
 	margin:0;
 	padding: 0;
 	& a {
 		display: inline-block;
-		padding:8px;
+		padding:12px;
 		text-decoration: none;
 		color:blue;
 		
@@ -19,7 +18,7 @@ html,body {
 }
 
 .main-footer {
-	background-color: blue;
+	background-color: red;
 	p {
 		text-transform: uppercase;
 		line-height: 1;
