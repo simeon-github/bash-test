@@ -41,6 +41,7 @@
 		</footer>
 	</div>    
 <!--build:js js/main.min.js -->
+<script src="js/lib/library.js"></script>
 <script src="js/plugins/plugin1.js"></script>
 <script src="js/plugins/plugin2.js"></script>
 <script src="js/main.js"></script>

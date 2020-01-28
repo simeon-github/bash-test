@@ -4,14 +4,14 @@ html,body {
 }
 
 .main-header {
-	background-color: green;
+	background-color: #ccc;
 	margin:0;
 	padding: 0;
 	& a {
 		display: inline-block;
 		padding:12px;
 		text-decoration: none;
-		color:blue;
+		color:#000;
 		
 		font-size: 20px;
 	}

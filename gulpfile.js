@@ -15,7 +15,7 @@ const gulp = require('gulp'),
 
 	
 	async function style() {
-		log(c.green('Compiling styles')); 
+		log(c.green('Compiling "sass" to "css" files')); 
 		return gulp.src('dev/scss/**/*.scss')
 		.pipe(sourcemaps.init({LoadMaps: true}))
 		.pipe(sass().on('error',sass.logError))
@@ -28,7 +28,7 @@ const gulp = require('gulp'),
     }
 
     async function watch() {
-	  	log(c.green('Browser sync init and begin Watching files')); 
+	  	log(c.green('Browser sync is init and gulp start watch for changes "scss", "js", "php" files')); 
     	browserSync.init({
 	       // open:'external',
 	       proxy:'http://localhost/bash-test/dev',
