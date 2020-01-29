@@ -10,45 +10,81 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap&subset=greek" rel="stylesheet">
         <link rel="icon" type="image/jpg" href="favicon.jpg">
         <!--build:css css/styles.min.css-->
-        <link rel="stylesheet" href="css/main1.css">
-        <link rel="stylesheet" href="css/main2.css">
+        <link rel="stylesheet" href="css/styles.css">
         <!--endbuild-->
     </head>
 <body>
     <div class="site">
-        <header class="main-header">
-            <a href="" title="link1">link1</a>
-            <a href="" title="link2">link2</a>
+         <header class="main-header js-main-header">
+            <div class="header-top-nav">    
+                <div class="wrapper">    
+                    <ul class="social-media">
+                        <li class="social-media-item facebook">facebook</li>
+                        <li class="social-media-item instagram">instagram</li>
+                        <li class="social-media-item twitter">twitte</li>
+                    </ul>
+                </div>    
+            </div>    
+            <div class="wrapper header-bottom-nav">    
+                <a class="site-logo js-main-nav-link" href="#home" title="Home">    
+                    <img src="images/site-logo.jpg" alt="nicer-dicer-logo">
+                </a>    
+                <ul class="main-nav">
+                    <li class="main-nav-item">
+                        <a class="main-nav-link js-main-nav-link" href="#home" title="Home">Home</a>
+                    </li>
+                    <li class="main-nav-item">
+                        <a class="main-nav-link js-main-nav-link" href="#overview" title="Overview">Overview</a>
+                    </li>
+                    <li class="main-nav-item">
+                        <a class="main-nav-link js-main-nav-link" href="#review" title="Reviews">Reviews</a>
+                    </li>
+                    <li class="main-nav-item">
+                        <a class="main-nav-link js-main-nav-link" href="#features" title="Features">Features</a>
+                    </li>
+                    <li class="main-nav-item">
+                        <a class="btn icon-btn" href="order-page.php" title="Order now">
+                            <i class="icon-basket"></i>
+                            <span>Order now</span>
+                        </a>    
+                    </li>
+                </ul>
+                <a href="" class="m-menu-btn js-m-menu-btn"></a>
+            </div>    
         </header>
-
-		<main class="main-content">
-			<h1>Main Text</h1>
-			<h2>Sub Text</h2>
-            <h3>Small text</h3>
-			<ul>
-				<li class="with">item1</li>
-				<li class="with">item2</li>
-                <li class="with">item3</li>
-                <li class="with">item4</li>
-                <li class="with">item5</li>
-                <li class="with">item6</li>
-			</ul>		
-
-			<div class="text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</div>
-            <div class="text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</div>
-		</main>
+        <main class="main-content">
+        </main>
 		<footer class="main-footer">
-		    <p>footer</p>
-		    <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</div>
-		</footer>
-	</div>    
-<!--build:js js/main.min.js -->
-<script src="js/lib/library.js"></script>
-<script src="js/plugins/plugin1.js"></script>
-<script src="js/plugins/plugin2.js"></script>
+            <div class="wrapper">    
+                <p class="copyright-text">© Copyright 2020, NicerDicer All rights reserved.</p>
+                <ul class="footer-nav">
+                    <li class="footer-nav-item">
+                        <a href="#home" class="footer-nav-link js-main-nav-link" title="home">home</a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="contact.php" class="footer-nav-link" title="contacts">contacts</a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="privacy.php" class="footer-nav-link" title="privacy policy">privacy policy</a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="terms.php" class="footer-nav-link" title="terms of use">terms of use</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        <a class="btn scrollTop-btn js-scrollTop-btn"></a>
+    </div>    
+<!--build:js js/main.min.js-->
+<script src="js/plugins/jquery-3.4.1.min.js"></script>
+<script src="js/plugins/jquery.sticky-kit.min.js"></script>    
+<script src="js/plugins/select2.min.js"></script>
+<script src="js/plugins/lazyframe.min.js"></script>
+<script src="js/plugins/slick.min.js"></script>
 <script src="js/main.js"></script>
-<!-- endbuild -->
+<!--endbuild-->
 </body>
 </html>
 
 
+  

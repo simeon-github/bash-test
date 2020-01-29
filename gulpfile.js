@@ -32,7 +32,7 @@ const gulp = require('gulp'),
     	browserSync.init({
 	       // open:'external',
 	       proxy:'http://localhost/gulp-template/dev',
-	       port:8080
+	       port:8082
 	    });
 
 	  	gulp.watch('dev/scss/**/*.scss', style);
@@ -84,5 +84,6 @@ const gulp = require('gulp'),
 	
 	exports.deleteDist = gulp.parallel(clearCashedImages, removeDist); // This task delete dist folder and cashed  compressed images
 	exports.default =  gulp.series(style, watch)
+	//exports.build =  gulp.series(useReference);
 	exports.build =  gulp.series(emptyDist, style, gulp.parallel(useReference, images, fonts));
 
