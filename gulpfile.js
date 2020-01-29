@@ -31,7 +31,7 @@ const gulp = require('gulp'),
 	  	log(c.green('Browser sync is init and gulp start watch for changes "scss", "js", "php" files')); 
     	browserSync.init({
 	       // open:'external',
-	       proxy:'http://localhost/bash-test/dev',
+	       proxy:'http://localhost/gulp-template/dev',
 	       port:8080
 	    });
 
