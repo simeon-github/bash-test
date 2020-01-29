@@ -1,0 +1,200 @@
+html,
+body {
+    counter-reset: section;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+html {
+    color: #222;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+body {
+    font-family: $family-ArgentCF-Regular;
+    font-size: 16px;
+    line-height: 1.2;
+    overflow-x:hidden; 
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+sup {
+    font-size: 0.45em;
+    top: -0.8em;
+    font-weight: 600;
+}
+
+textarea {
+    resize: vertical;
+}
+
+ul,ol,figure {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+ul,ol {
+    list-style: none;
+}
+
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+a {
+    color: #007fb4;
+}
+
+h1,h2,h3, h4, h5, h6 {
+    font-family: $family-ArgentCF-Bold;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.main-title {
+    padding: 40px 0; 
+    margin: 0;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1;
+    color: #e75012;
+}
+
+.sub-title {
+    font-size: 37px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #e75012;
+}
+
+.third-title {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1;
+    color: #636363;
+    margin: 0 0 20px;
+}
+
+::-webkit-input-placeholder {
+  color: #ababab;
+  font-size: 14px;
+}
+
+::-moz-placeholder {
+  color: #ababab;
+  font-size: 14px;
+}
+
+:-ms-input-placeholder {
+  color: #ababab;
+  font-size: 14px;
+}
+
+::placeholder {
+  color: #ababab;
+  font-size: 14px;
+}
+
+.text p {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.5;
+    color:#555555;
+    margin:0 0 20px;
+}
+
+.text.white p {
+    color: #fff;
+}
+
+.text p:last-child {
+    margin-bottom: 0;
+}
+
+.text small {
+    font-style: italic;
+    font-size: 18px;
+    color:#292929;
+    line-height: 1.6;
+}
+
+.text strong {
+    font-weight: 600;
+}
+
+.no-space {
+    margin: 0;
+    padding:0; 
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.no-uppercase {
+    text-transform: none;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.submit-btn.success {
+    background-color:#8fbf29;
+}
+
+.site {
+    width: 100%;
+    max-width: 1920px;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+body.safari .site {
+    min-height: 100%;   
+}
+
+body.msie .main-content {
+    flex-grow: 0;
+}
+
+.main-content {
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 92%;
+}
+
+ 
