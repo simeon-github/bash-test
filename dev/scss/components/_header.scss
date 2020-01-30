@@ -1,6 +1,22 @@
 .main-header {
-	background-color: $darkRed;
-	.social-media {
-		display: flex;
+	background-color: $navy;
+}
+
+.site-logo {
+	display: inline-block;
+	border:4px solid $gold;
+	@include transform(translateY(20px));
+	> img {
+		display: block;
+		max-width: 100%;
+		height: auto;
+	}	
+}
+
+.social-media  {
+	display: flex;
+	color:$white;
+	&-item {
+		padding:20px;
 	}
 }
